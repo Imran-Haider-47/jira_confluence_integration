@@ -1,0 +1,12 @@
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+
+backend/node_modules/
+backend/dist/
+
+# Python / tooling (if present)
+.venv/
+__pycache__/
