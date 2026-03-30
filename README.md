@@ -4,6 +4,7 @@ Keeps Confluence pages in sync with Jira by handling Jira webhooks and updating 
 
 - Architecture: [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md)
 - Backend setup and libraries: [backend/DEPENDENCIES.md](./backend/DEPENDENCIES.md)
+- Learning notes: [learning/nodejs-basics.md](./learning/nodejs-basics.md) · [learning/jira-integration.md](./learning/jira-integration.md) · [learning/confluence-integration.md](./learning/confluence-integration.md)
 
 Quick start (backend):
 

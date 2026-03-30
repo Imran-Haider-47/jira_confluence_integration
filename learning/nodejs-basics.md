@@ -55,7 +55,7 @@ The **health route** is mounted from **`backend/src/http/routes/health.ts`**.
 - Common methods: **GET** (read), **POST** (create / trigger), **PUT/PATCH** (update), **DELETE** (remove).
 - The server responds with a **status code** (200 success, 400 bad input, 500 server error) and often **JSON** data.
 
-“REST API” in interviews usually means: **JSON over HTTP**, resources, clear URLs.
+In typical backend work, “REST API” means: **JSON over HTTP**, resource-oriented paths, and predictable status codes.
 
 ### Real-world analogy
 
@@ -121,3 +121,10 @@ This repo uses **TypeScript** (`.ts` files): JavaScript **plus static types** so
 Do **not** move to Step 2 (controllers/services refactor) until you confirm you are ready.
 
 Next step (when you say go): **Step 2 — Project structure (routes, controllers, services)** and the file **`learning/project-structure.md`**.
+
+---
+
+## Related learning (integrations)
+
+- **Jira Cloud REST, workflow transitions, and this repo’s layers:** [jira-integration.md](./jira-integration.md)
+- **Confluence Cloud REST, spaces, pages, storage format, versioning:** [confluence-integration.md](./confluence-integration.md)
